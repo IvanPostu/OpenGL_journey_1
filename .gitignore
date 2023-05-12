@@ -46,3 +46,8 @@ _deps
 *.out
 *.app
 
+/build/
+.cproject
+.project
+bin
+.settings
