@@ -4,6 +4,7 @@ cmake_minimum_required(VERSION 3.2)
 
 project(my_project)
 
+set(CMAKE_CXX_STANDARD_LIBRARIES "-lstdc++")
 set(CMAKE_C_COMPILER "/usr/bin/gcc-11")
 set(CMAKE_CXX_COMPILER "/usr/bin/g++-11")
 set(CMAKE_CXX_STANDARD 17)

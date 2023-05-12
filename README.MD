@@ -20,9 +20,9 @@ $ ./main/my_exe
 ```bash
 
 # for linux
-$ mkdir build && cd build && cmake -G "Eclipse CDT4 - Unix Makefiles" ..
+$ mkdir build && cd build && cmake -G "Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug ..
 
 # for windows
-$ mkdir build && cd build && cmake -G "Eclipse CDT4 - MinGW Makefiles" ..
+$ mkdir build && cd build && cmake -G "Eclipse CDT4 - MinGW Makefiles" -DCMAKE_BUILD_TYPE=Debug ..
 
 ```
