@@ -8,7 +8,7 @@
 $ mkdir build && cd build
 
 # clean & build
-$ rm -rf ./* && cmake .. && make
+$ rm -rf ./* && cmake .. && cmake --build . --clean-first
 
 # run
 $ ./main/my_exe
